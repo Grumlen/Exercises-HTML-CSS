@@ -1,0 +1,28 @@
+div {
+  border: 4px groove #ffffff;
+  margin: 5px;
+  padding: 5px;
+  background-color: forestgreen;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.column4 {
+  float: left;
+  position: relative;
+  background-color: red;
+}
+.column3 {
+  float: left;
+  position: relative;
+  background-color: blue;
+}
+.column2 {
+  float: left;
+  position: relative;
+  background-color: teal;
+}
+.column1 {
+  float: left;
+  clear: left;;
+}

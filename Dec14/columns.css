@@ -1,0 +1,29 @@
+h1, nav, footer {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+article {
+  width: 33%;
+  min-width: 200px;
+  box-sizing: border-box;
+  padding: 5px;
+  display: inline-block;
+}
+.column1 {
+  float: left;
+}
+.column3 {
+  float: right;
+}
+footer {
+  clear: both;
+}

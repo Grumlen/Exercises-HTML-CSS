@@ -1,0 +1,12 @@
+article.column1 {
+  margin: 0%;
+  padding: 0%;
+  width: 50%;
+  float: left;
+}
+article.column2 {
+  margin: 0%;
+  padding: 0%;
+  width: 50%;
+  float: right;
+}

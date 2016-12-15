@@ -3,14 +3,14 @@
     transform: rotate(0deg) skewX(0deg) skewY(0deg);
   }
   to {
-    transform: rotate(4001deg) skewX(10deg) skewY(-10deg);
+    transform: rotate(4015deg) skewX(18deg) skewY(-18deg);
   }
 }
 div {
   float: left;
   height: 120px;
   width: 120px;
-  margin: 15px;
+  margin: 17px 11.2px 17px 11.2px;
   animation-name: SpinVanish;
   animation-timing-function: ease-in-out;;
   animation-fill-mode: forwards;

@@ -2,11 +2,8 @@
   from {
     transform: rotate(0deg) skewX(0deg) skewY(0deg);
   }
-  50% {
-    transform: rotate(50deg) skewX(30deg) skewY(30deg);
-  }
   to {
-    transform: rotate(45deg) skewX(0deg) skewY(0deg);
+    transform: rotate(4001deg) skewX(10deg) skewY(-10deg);
   }
 }
 div {
@@ -15,103 +12,126 @@ div {
   width: 120px;
   margin: 15px;
   animation-name: SpinVanish;
-  animation-duration: 12s;
   animation-timing-function: ease-in-out;;
   animation-fill-mode: forwards;
 }
 .a1 {
   background-color: hsl(0, 80%, 50%);
+  animation-duration: 20s;
   animation-delay: 0s;
 }
 .b1 {
   background-color: hsl(15, 80%, 50%);
+  animation-duration: 19.5s;
   animation-delay: 0.5s;
 }
 .c1 {
   background-color: hsl(30, 80%, 50%);
+  animation-duration: 19s;
   animation-delay: 1s;
 }
 .d1 {
   background-color: hsl(45, 80%, 50%);
+  animation-duration: 18.5s;
   animation-delay: 1.5s;
 }
 .e1 {
   background-color: hsl(60, 80%, 50%);
+  animation-duration: 18s;
   animation-delay: 2s;
 }
 .f1 {
   background-color: hsl(75, 80%, 50%);
+  animation-duration: 17.5s;
   animation-delay: 2.5s;
 }
 .g1 {
   background-color: hsl(90, 80%, 50%);
   animation-delay: 3s;
+  animation-duration: 17s;
 }
 .h1 {
   background-color: hsl(105, 80%, 50%);
   animation-delay: 3.5s;
+  animation-duration: 16.5s;
 }
 .a2 {
   background-color: hsl(120, 80%, 50%);
   animation-delay: 4s;
+  animation-duration: 16s;
 }
 .b2 {
   background-color: hsl(135, 80%, 50%);
   animation-delay: 4.5s;
+  animation-duration: 15.5s;
 }
 .c2 {
   background-color: hsl(150, 80%, 50%);
   animation-delay: 5s;
+  animation-duration: 15s;
 }
 .d2 {
   background-color: hsl(165, 80%, 50%);
   animation-delay: 5.5s;
+  animation-duration: 14.5s;
 }
 .e2 {
   background-color: hsl(180, 80%, 50%);
   animation-delay: 6s;
+  animation-duration: 14s;
 }
 .f2 {
   background-color: hsl(195, 80%, 50%);
   animation-delay: 6.5s;
+  animation-duration: 13.5s;
 }
 .g2 {
   background-color: hsl(210, 80%, 50%);
   animation-delay: 7s;
+  animation-duration: 13s;
 }
 .h2 {
   background-color: hsl(225, 80%, 50%);
   animation-delay: 7.5s;
+  animation-duration: 12.5s;
 }
 .a3 {
   background-color: hsl(240, 80%, 50%);
   animation-delay: 8s;
+  animation-duration: 12s;
 }
 .b3 {
   background-color: hsl(255, 80%, 50%);
   animation-delay: 8.5s;
+  animation-duration: 11.5s;
 }
 .c3 {
   background-color: hsl(270, 80%, 50%);
   animation-delay: 9s;
+  animation-duration: 11s;
 }
 .d3 {
   background-color: hsl(285, 80%, 50%);
   animation-delay: 9.5s;
+  animation-duration: 10.5s;
 }
 .e3 {
   background-color: hsl(300, 80%, 50%);
   animation-delay: 10s;
+  animation-duration: 10s;
 }
 .f3 {
   background-color: hsl(315, 80%, 50%);
   animation-delay: 10.5s;
+  animation-duration: 9.5s;
 }
 .g3 {
   background-color: hsl(330, 80%, 50%);
   animation-delay: 11s;
+  animation-duration: 9s;
 }
 .h3 {
   background-color: hsl(345, 80%, 50%);
   animation-delay: 11.5s;
+  animation-duration: 8.5s;
 }

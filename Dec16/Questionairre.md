@@ -6,7 +6,7 @@
 
 2. What are the different positions in CSS?
 
-Absolute, Relative, Fixed, `&` Static
+Absolute (removes from flow, position from top, left, bottom, and/or right), Relative (same as absolute except not removed from flow), Fixed (locks position on screen regardless of scrolling), and Static (default).
 
 3. What does the float property do?
 
@@ -18,7 +18,7 @@ The dir attribute is used to change the direction of text, with "rtl" making it 
 
 5. Explain how the new HTML5 features works:
 
-Many of them are semantic tags that act as `<div>` elements with more specific names based on common classes from html4.
+Many of them are semantic tags, such a `<article>, <header>, <footer>, & <section>,` that act as `<div>` elements with more specific names based on common classes from html4.
 
 6. What are `<label>` elements used for?
 
@@ -38,7 +38,7 @@ border-radius:, expanded attribute selectors, border images, box `&` text shadow
 
 10. What is responsive design?
 
-Using media queries to automatically adjust a layout based on the size of the screen it is being viewed on.
+Using media queries to automatically adjust a layout based on the size of the screen it is being viewed on. Insert the "media="(DIMENSION:Xpx)"" attribute into the link tag to denote when to apply a specific style sheet.
 
 11. Explain the different CSS units of measurement.
 
@@ -58,15 +58,15 @@ p>a would target the first a element that is a child of p.
 
 15. Can you target a single, specific element with a particular class?
 
-Yes, you would use tag.class assuming no other tags of the same type have that class.
+Yes, you would use TAG.CLASS assuming no other tags of the same type have that class.
 
 16. What is the difference between display:none and visibility:hidden?
 
-Display:none will simply ignore the element when generating the page, while visibility:hidden will not display the element but will still reserve space for it in the page layout.
+Display:none will simply ignore the element when generating the page, as though it does not exist, while visibility:hidden will not display the element but will still reserve space for it in the page layout.
 
 17. Does overflow: hidden create a new block formatting context?
 
-Yes.
+Yes, otherwise it would create issues with floated blocks.
 
 18. Is it possible to use percentages in border widths?
 
@@ -74,11 +74,11 @@ No.
 
 19. Is it possible to use percentages in margins?
 
-Yes.
+Yes, margin: TOP% RIGHT% BOTTOM% LEFT%.
 
 20. How do you reset a CSS style?
 
-Most use a reset.css sheet that removes the automatic html formatting and standardizes things so the developer has a reliable baseline for applying their own css styles to.
+Most use a reset.css sheet that removes the automatic html formatting and standardizes things so the developer has a reliable baseline for applying their own css styles to. They key is to create a set of declaration blocks that defaults everything to a single format so that you can easily create a standardized experience regardless of which browser is being used to view your website. This is desirable because some browsers displays things like headers and lists slightly different.
 
 21. If you have a way of dividing an interface horizontally and vertically, could any layout be made?
 
@@ -86,11 +86,11 @@ Yes, though certain ways of dividing the interface will more easily create certa
 
 22. What debug tools are available for CSS?
 
-Developer Tools in many browsers can be used for debugging, as well as FireBug and Xyle Scope.
+Developer Tools in many browsers can be used for debugging since you can simply refresh to see the effects of your code, as well as FireBug and Xyle Scope.
 
 23. Explain how the box-model works.
 
-A box consists of margin (space between elements), border (edge of element), padding (space between border and content), `&` content.
+A box consists of margin (space between elements), border (edge of element), padding (space between border and content), `&` content. CSS takes every element and creates a box to contain it.
 
 24. Name a few pseudo-classes and what they are used for
 
@@ -106,11 +106,11 @@ Use the display property to determine a style other than inline, or use the inli
 
 27. Explain how to implement a carousel using CSS / CSS3
 
-Create a div that is the size of the images, and place a div inside that which has the same height but a width to encompass all of the images. Then place all of the images within inner div and create an animation that translates the inner div in the desired direction.
+Create a div that is the size of a single image and place an inner div inside that which is large enough to contain all the images at the same time. Then place all of the images within inner div, allowing only one image to be displayed at a time, and create an animation that translates the inner div in the desired direction so that it reveals new images.
 
 28. Is there a performance difference between the different selectors?
 
-Yes, specificity is important and using ID/Class selectors wisely will prevent the system from hunting through the entire html document.
+Yes, specificity is important and using ID/Class selectors wisely will prevent the system from hunting through the entire html document. For example, #gohere has a much smaller performance impact than "html body div p em."
 
 29. Explain how CSS3 animations work.
 
@@ -122,7 +122,7 @@ They are used to animate change to content that would normally be instantaneous.
 
 31. How would you create a menu in which each element takes the same portion of space from its container, and if you change its size, it still remains the same space for each one
 
-You would use percentages to dictate the box size of each element to be equal and add up to 100%.
+You would use percentages for height and width to dictate the box size of each element to be equal and add up to 100%.
 
 32. What cross browsers issues have you ran into and how did you deal with them?
 
@@ -134,12 +134,14 @@ It allows you to re-order the contents using CSS. No.
 
 34. What are media queries?
 
-They allow you to query the screen size and browser type being used to view your website.
+They allow you to query the screen size and browser type being used to view your website. Insert the "media="(DIMENSION:Xpx)"" attribute into the link tag to engage in a media query.
 
 35. How is an HTML5 form implemented?
 
-`<form action="URL"> </form>`
-You would then insert the input types that you desire from the user.
+`<form action="URL">
+  <input type="TYPE" name="NAME" />
+  <label for="NAME">TEXT</label>
+</form>`
 
 36. What is the specificity?
 

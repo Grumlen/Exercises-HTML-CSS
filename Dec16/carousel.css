@@ -1,0 +1,100 @@
+@keyframes carousel {
+  from {transform: translate(0px,0px);}
+  3% {transform: translate(0px,0px);}
+  4% {transform: translate(-200px,0px);}
+  7% {transform: translate(-200px,0px);}
+  8% {transform: translate(-400px,0px);}
+  11% {transform: translate(-400px,0px);}
+  12% {transform: translate(-600px,0px);}
+  15% {transform: translate(-600px,0px);}
+  16% {transform: translate(-800px,0px);}
+  19% {transform: translate(-800px,0px);}
+  20% {transform: translate(-1000px,0px);}
+  23% {transform: translate(-1000px,0px);}
+  24% {transform: translate(-1200px,0px);}
+  27% {transform: translate(-1200px,0px);}
+  28% {transform: translate(-1400px,0px);}
+  31% {transform: translate(-1400px,0px);}
+  32% {transform: translate(-1600px,0px);}
+  35% {transform: translate(-1600px,0px);}
+  36% {transform: translate(-1800px,0px);}
+  39% {transform: translate(-1800px,0px);}
+  40% {transform: translate(-2000px,0px);}
+  43% {transform: translate(-2000px,0px);}
+  44% {transform: translate(-2200px,0px);}
+  47% {transform: translate(-2200px,0px);}
+  48% {transform: translate(-2400px,0px);}
+  51% {transform: translate(-2400px,0px);}
+  52% {transform: translate(-2600px,0px);}
+  55% {transform: translate(-2600px,0px);}
+  56% {transform: translate(-2800px,0px);}
+  59% {transform: translate(-2800px,0px);}
+  60% {transform: translate(-3000px,0px);}
+  63% {transform: translate(-3000px,0px);}
+  64% {transform: translate(-3200px,0px);}
+  67% {transform: translate(-3200px,0px);}
+  68% {transform: translate(-3400px,0px);}
+  71% {transform: translate(-3400px,0px);}
+  72% {transform: translate(-3600px,0px);}
+  75% {transform: translate(-3600px,0px);}
+  76% {transform: translate(-3800px,0px);}
+  79% {transform: translate(-3800px,0px);}
+  80% {transform: translate(-4000px,0px);}
+  83% {transform: translate(-4000px,0px);}
+  84% {transform: translate(-4200px,0px);}
+  87% {transform: translate(-4200px,0px);}
+  88% {transform: translate(-4400px,0px);}
+  91% {transform: translate(-4400px,0px);}
+  92% {transform: translate(-4600px,0px);}
+  95% {transform: translate(-4600px,0px);}
+  96% {transform: translate(-4800px,0px);}
+  99% {transform: translate(-4800px,0px);}
+  100% {transform: translate(-5000px,0px);}
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.main {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin: 10px;
+}
+.container {
+  height: 200px;
+  width: 5200px;
+  animation-name: carousel;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+.container div {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.a1 { background-color: hsl(0, 80%, 50%);}
+.b1 { background-color: hsl(14, 80%, 50%);}
+.c1 { background-color: hsl(29, 80%, 50%);}
+.d1 { background-color: hsl(43, 80%, 50%);}
+.e1 { background-color: hsl(58, 80%, 50%);}
+.f1 { background-color: hsl(72, 80%, 50%);}
+.g1 { background-color: hsl(86, 80%, 50%);}
+.h1 { background-color: hsl(101, 80%, 50%);}
+.a2 { background-color: hsl(115, 80%, 50%);}
+.b2 { background-color: hsl(130, 80%, 50%);}
+.c2 { background-color: hsl(144, 80%, 50%);}
+.d2 { background-color: hsl(158, 80%, 50%);}
+.e2 { background-color: hsl(173, 80%, 50%);}
+.f2 { background-color: hsl(187, 80%, 50%);}
+.g2 { background-color: hsl(202, 80%, 50%);}
+.h2 { background-color: hsl(216, 80%, 50%);}
+.a3 { background-color: hsl(230, 80%, 50%);}
+.b3 { background-color: hsl(245, 80%, 50%);}
+.c3 { background-color: hsl(259, 80%, 50%);}
+.d3 { background-color: hsl(274, 80%, 50%);}
+.e3 { background-color: hsl(288, 80%, 50%);}
+.f3 { background-color: hsl(302, 80%, 50%);}
+.g3 { background-color: hsl(317, 80%, 50%);}
+.h3 { background-color: hsl(331, 80%, 50%);}
+.a4 { background-color: hsl(346, 80%, 50%);}
